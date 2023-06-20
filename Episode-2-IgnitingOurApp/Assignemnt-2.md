@@ -72,3 +72,5 @@
     - The `package-lock.json` file is automatically updated by NPM whenever you run commands like `npm install` or `npm update`.
 
     In summary, `package.json` is a manually maintained configuration file that defines project-level settings and dependencies, while `package-lock.json` is an automatically generated lock file that ensures consistent installations by locking down specific versions of packages and their dependencies.
+
+

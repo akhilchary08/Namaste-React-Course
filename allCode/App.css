@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #9d98e6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    width: 50px;
+}
+
+.user-icon{
+    width: 50px;
+}
+
+ 
