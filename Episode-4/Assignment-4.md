@@ -121,5 +121,7 @@
     As we know that react updates the UI using React fiber and reconcilation process where React creates a virtual DOM and another copy of virtual DOM is created for any modifations. Now, these 2 copies are compared using a Diff algorithm. So, having key as an attribute to lists helps in uniquely identifying each list element. 
 
 9. Can we use index as keys in React?
-Yes, we can use the index as keys, but it is not considered as a good practice to use them because if the order of items may change. This can negatively impact performance and may cause issues with component state. Keys are taken from each object which is being rendered. There might be a possibility that if we modify the incoming data react may render them in unusual order.
+    Yes, we can use the index as keys, but it is not considered as a good practice to use them because if the order of items may change. This can negatively impact performance and may cause issues with component state. Keys are taken from each object which is being rendered. There might be a possibility that if we modify the incoming data react may render them in unusual order.
+
+
 
